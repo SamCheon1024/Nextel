@@ -1,0 +1,67 @@
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/reset";
+@import "partials/classes";
+@import "partials/grid";
+@import "partials/ids";
+
+
+@font-face {
+    font-family: 'clarendon_fsregular';
+    src: url('../fonts/Webfonts/clarendonfs_light_macroman/Clarendon-Light-webfont.eot');
+    src: url('../fonts/Webfonts/clarendonfs_light_macroman/Clarendon-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Webfonts/clarendonfs_light_macroman/Clarendon-Light-webfont.woff2') format('woff2'),
+         url('../fonts/Webfonts/clarendonfs_light_macroman/Clarendon-Light-webfont.woff') format('woff'),
+         url('../fonts/Webfonts/clarendonfs_light_macroman/Clarendon-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Webfonts/clarendonfs_light_macroman/Clarendon-Light-webfont.svg#clarendon_fsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'clarendon_fsbold_expanded';
+    src: url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-BoldExpanded-webfont.eot');
+    src: url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-BoldExpanded-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-BoldExpanded-webfont.woff2') format('woff2'),
+         url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-BoldExpanded-webfont.woff') format('woff'),
+         url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-BoldExpanded-webfont.ttf') format('truetype'),
+         url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-BoldExpanded-webfont.svg#clarendon_fsbold_expanded') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'clarendon_fsbold';
+    src: url('../fonts/Webfonts/clarendonfs_bold_macroman/Clarendon-Bold-webfont.eot');
+    src: url('../fonts/Webfonts/clarendonfs_bold_macroman/Clarendon-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Webfonts/clarendonfs_bold_macroman/Clarendon-Bold-webfont.woff2') format('woff2'),
+         url('../fonts/Webfonts/clarendonfs_bold_macroman/Clarendon-Bold-webfont.woff') format('woff'),
+         url('../fonts/Webfonts/clarendonfs_bold_macroman/Clarendon-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Webfonts/clarendonfs_bold_macroman/Clarendon-Bold-webfont.svg#clarendon_fsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'clarendon_fsextrabold';
+    src: url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-Xbold-webfont.eot');
+    src: url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-Xbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-Xbold-webfont.woff2') format('woff2'),
+         url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-Xbold-webfont.woff') format('woff'),
+         url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-Xbold-webfont.ttf') format('truetype'),
+         url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-Xbold-webfont.svg#clarendon_fsextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'clarendon_fsmedium';
+    src: url('../fonts/Webfonts/clarendonfs_medium_macroman/Clarendon-Medium-webfont.eot');
+    src: url('../fonts/Webfonts/clarendonfs_medium_macroman/Clarendon-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Webfonts/clarendonfs_medium_macroman/Clarendon-Medium-webfont.woff2') format('woff2'),
+         url('../fonts/Webfonts/clarendonfs_medium_macroman/Clarendon-Medium-webfont.woff') format('woff'),
+         url('../fonts/Webfonts/clarendonfs_medium_macroman/Clarendon-Medium-webfont.ttf') format('truetype'),
+         url('../fonts/Webfonts/clarendonfs_medium_macroman/Clarendon-Medium-webfont.svg#clarendon_fsmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

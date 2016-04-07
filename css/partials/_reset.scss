@@ -1,0 +1,147 @@
+* {
+	box-sizing:border-box;
+	transition:width 0.3s;
+}
+body {
+	margin:0;
+	font-family:$font-family;
+	font-size:100%;
+}
+
+h1,
+h2,
+h3 {
+	font-family:$font-header;
+}
+h1 {
+	font-size:1.5em;
+}
+h2 {
+	text-align:center;
+	color:$color-white;
+	font-size:$size-font-lg;
+}
+form{
+	color:$color-white;
+}
+h3 {
+	font-size:$size-font-lg;
+}
+
+
+a {
+	color:$color-main;
+	font-weight:bold;
+	text-decoration:none;
+
+	&:hover {
+		text-decoration:underline;
+	}
+}
+
+figcaption{
+	position: absolute;
+	float: left;
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+	height: $min-height *1.5;
+	opacity: 0;
+	bottom: 0%;
+	left: -100%;
+	-webkit-transition: all 0.4s cubic-bezier(0.65,0.45,0.35,1);
+}
+
+h6{
+	margin-top: 13px;
+	}
+figcaption > h6{
+	font-size:25px;
+	color:#FFFFFF;
+}
+figure {
+	background: #F9CA4F;
+	width: 33.3%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	margin: 0px;
+	}
+figure:hover figcaption {
+	opacity: 1;
+	left: 0;
+	-webkit-transition: 0.3s cubic-bezier(0.65,0.45,0.35,1);
+}
+
+figure:hover h5{
+	-webkit-transform: scale(1.2);
+	color:#eb5252;
+	-webkit-transition: all 0.3s cubic-bezier(0.65,0.45,0.35,1);
+}
+
+
+h5{ 
+	    text-align: center;
+	font-size:$size-font-xxlg;
+	margin: 50px;
+	color:$color-white;
+	}
+
+@font-face {
+    font-family: 'clarendon_fsregular';
+    src: url('../fonts/Webfonts/clarendonfs_light_macroman/Clarendon-Light-webfont.eot');
+    src: url('../fonts/Webfonts/clarendonfs_light_macroman/Clarendon-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Webfonts/clarendonfs_light_macroman/Clarendon-Light-webfont.woff2') format('woff2'),
+         url('../fonts/Webfonts/clarendonfs_light_macroman/Clarendon-Light-webfont.woff') format('woff'),
+         url('../fonts/Webfonts/clarendonfs_light_macroman/Clarendon-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Webfonts/clarendonfs_light_macroman/Clarendon-Light-webfont.svg#clarendon_fsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'clarendon_fsbold_expanded';
+    src: url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-BoldExpanded-webfont.eot');
+    src: url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-BoldExpanded-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-BoldExpanded-webfont.woff2') format('woff2'),
+         url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-BoldExpanded-webfont.woff') format('woff'),
+         url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-BoldExpanded-webfont.ttf') format('truetype'),
+         url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-BoldExpanded-webfont.svg#clarendon_fsbold_expanded') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'clarendon_fsbold';
+    src: url('../fonts/Webfonts/clarendonfs_bold_macroman/Clarendon-Bold-webfont.eot');
+    src: url('../fonts/Webfonts/clarendonfs_bold_macroman/Clarendon-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Webfonts/clarendonfs_bold_macroman/Clarendon-Bold-webfont.woff2') format('woff2'),
+         url('../fonts/Webfonts/clarendonfs_bold_macroman/Clarendon-Bold-webfont.woff') format('woff'),
+         url('../fonts/Webfonts/clarendonfs_bold_macroman/Clarendon-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Webfonts/clarendonfs_bold_macroman/Clarendon-Bold-webfont.svg#clarendon_fsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'clarendon_fsextrabold';
+    src: url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-Xbold-webfont.eot');
+    src: url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-Xbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-Xbold-webfont.woff2') format('woff2'),
+         url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-Xbold-webfont.woff') format('woff'),
+         url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-Xbold-webfont.ttf') format('truetype'),
+         url('../fonts/Webfonts/clarendonfs_boldexpanded_macroman/Clarendon-Xbold-webfont.svg#clarendon_fsextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'clarendon_fsmedium';
+    src: url('../fonts/Webfonts/clarendonfs_medium_macroman/Clarendon-Medium-webfont.eot');
+    src: url('../fonts/Webfonts/clarendonfs_medium_macroman/Clarendon-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Webfonts/clarendonfs_medium_macroman/Clarendon-Medium-webfont.woff2') format('woff2'),
+         url('../fonts/Webfonts/clarendonfs_medium_macroman/Clarendon-Medium-webfont.woff') format('woff'),
+         url('../fonts/Webfonts/clarendonfs_medium_macroman/Clarendon-Medium-webfont.ttf') format('truetype'),
+         url('../fonts/Webfonts/clarendonfs_medium_macroman/Clarendon-Medium-webfont.svg#clarendon_fsmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

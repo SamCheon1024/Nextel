@@ -1,0 +1,85 @@
+
+$color-main:#FACB41;
+$color-main_2:#FF175D;
+$color-sub:"maroon";
+$color-white:white;
+$color-point:red;
+$color-bg:#202020;
+
+$size-sm: 5px;
+$size-md: $size-sm * 2;
+$size-lg: $size-md * 2;
+
+$size-font-sm:10px;
+$size-font-md: $size-font-sm * 2; 
+$size-font-lg: $size-font-md * 2; 
+$size-font-xlg: $size-font-lg * 3; 
+$size-font-xxlg: $size-font-xlg * 2.5;
+
+
+$site-width:800px;
+
+$font-family:'clarendon_fsregular';
+$font-family_2:'clarendon_fsmedium';
+$font-header:'clarendon_fsmedium';
+$font-cl:'clarendon_fsregular';
+$font-ch:'clarendon_fsmedium';
+$font-cb:'clarendon_fsmedium';
+$font-family_serif:serif;
+$font-family_sans-serif:sans-serif;
+
+$min-height:40px;
+$min-height_2:20px;
+
+$padding:10px;
+$padding-md:$padding * 2;
+$padding-lg:$padding-md *2;
+
+$width:100px;
+$width-sm:$width*2;
+$width-md:$width-sm*2;
+$width-lg:$width-md*2;
+// Sass List
+$cool-colors:(
+	"blue",
+	"grey",
+	#fff
+	);
+
+// border-size-type
+$border-style:2px solid white;
+$border-style_2: 8px solid white;
+$border-style_3:4px solid #FACB41;
+$border-style_4:1px solid #D3D3D3;
+
+// Sass Map
+$container-width:(
+	xs:0,
+	sm:480px,
+	md:640px,
+	lg:960px,
+	xl:1280px
+	);
+
+$gutter-width:$size-md;
+$column-length:12;
+
+$blank: 80px;
+
+$boxes-map:(
+	p:padding,
+	m:margin
+	);
+$positions-map:(
+	t:top,
+	r:right,
+	b:bottom,
+	l:left
+	);
+// h = horizontal, v = vertical, ''= all sides
+$sizes-map:(
+	l:$size-lg,
+	m:$size-md,
+	s:$size-sm,
+	n:0
+	);

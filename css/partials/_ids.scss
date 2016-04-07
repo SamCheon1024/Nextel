@@ -1,0 +1,19 @@
+#serif{
+	font-family:$font-family_serif;
+	height:$min-height *10.75;
+}
+
+#san_serif{
+	font-family:$font-family_sans-serif;
+	height:$min-height * 10.75;
+}
+#slab_serif{
+	height:$min-height * 12;
+	border-left:$border-style ;
+	border-right:$border-style;
+	padding-top:$size-md; 
+}
+
+#name{
+	margin-top:$size-md *1.5;
+}
